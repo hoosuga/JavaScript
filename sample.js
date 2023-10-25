@@ -1,4 +1,9 @@
-const nickname = "taro"
-console.log(nickname)
-nickname = "ichiro"
-console.log(nickname)
+var str = "webcamp"
+
+function foo() {
+  console.log(str)
+  var y = "hello"
+}
+
+foo()
+console.log(y)
