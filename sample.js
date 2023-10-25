@@ -1,5 +1,5 @@
 // varによる再宣言
-var nickname = "taro"
+let nickname = "taro"
 console.log(nickname)
-var nickname = "ichiro"
+let nickname = "ichiro"
 console.log(nickname)
