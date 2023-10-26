@@ -44,13 +44,16 @@
 //alert(str1 + str2); 
 //alert(str3 + str4);
 
-let alertString;
+//let alertString;
 
-alertString = addString("WebCamp")
+//alertString = addString("WebCamp")
 
-alert(alertString);
+//alert(alertString);
 
-function addString(strA){
-  let addStr = "Hello" + strA
-  return addStr;
-}
+//function addString(strA){
+//  let addStr = "Hello" + strA
+//  return addStr;
+//}
+
+let promptStr = prompt('何か好きな文字を入力してください。')
+alert(promptStr)
