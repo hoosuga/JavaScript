@@ -37,9 +37,20 @@
 
 //alert('1から10まで足した計算結果は' + num + 'です')
 
-let str1 = '1+3='
-let str2 = 1+3;
-let str3 = '5-3='
-let str4 = 5-3;
-alert(str1 + str2); 
-alert(str3 + str4);
+//let str1 = '1+3='
+//let str2 = 1+3;
+//let str3 = '5-3='
+//let str4 = 5-3;
+//alert(str1 + str2); 
+//alert(str3 + str4);
+
+let alertString;
+
+alertString = addString("WebCamp")
+
+alert(alertString);
+
+function addString(strA){
+  let addStr = "Hello" + strA
+  return addStr;
+}
