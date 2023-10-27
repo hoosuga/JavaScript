@@ -1,9 +1,5 @@
-var str = "webcamp"
-
-function foo() {
-  console.log(str)
-  var y = "hello"
+for (let i = 0; i < 10; i++) {     
+  console.log(i) 
 }
 
-foo()
-console.log(y)
+console.log(i)
